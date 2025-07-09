@@ -5,16 +5,22 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Passionate about clean architecture
-    I build scalable, high-performance solutions
-    from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const text = `Computer Science undergrad turned co-host.`;
+
+  const aboutText = `I'm currently pursuing a Bachelor's in Computer Science, 
+where I’ve built everything from web apps to automation tools.
+
+Now I apply that same problem-solving approach to Airbnb hosting—
+helping clients boost bookings, automate guest care, 
+and grow stress-free.
+
+On the side:
+💻 I code full-stack projects
+🤖 Test AI tools for hosting
+☕ Run co-hosting ops from my laptop`;
+
   const imgRef = useRef(null);
+
   useGSAP(() => {
     gsap.to("#about", {
       scale: 0.95,
@@ -38,11 +44,12 @@ const About = () => {
       scrollTrigger: { trigger: imgRef.current },
     });
   });
+
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Cod with purpose, Built to scale"}
-        title={"About"}
+        subTitle={"From Code to Co-Hosting"}
+        title={"About Me"}
         text={text}
         textColor={"text-white"}
         withScrollTrigger={true}
@@ -50,8 +57,8 @@ const About = () => {
       <div className="flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide lg:flex-row md:text-2xl lg:text-3xl text-white/60">
         <img
           ref={imgRef}
-          src="images/man.jpg"
-          alt="man"
+          src="images/cohost.jpg"
+          alt="cohost"
           className="w-md rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />

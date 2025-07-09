@@ -1,80 +1,28 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Guest Messaging & 24/7 Support",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
-    items: [
-      {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
-      },
-      {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
-      },
-      {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
-      },
-    ],
+      "Instant replies to guest queries using AI + manual oversight to keep ratings high.",
+    items: [],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Smart Pricing & Calendar Optimization",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
-    items: [
-      {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
-      },
-      {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
-      },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
-    ],
+      "Tools like PriceLabs ensure your listing adapts daily to market demand and events.",
+    items: [],
   },
   {
-    title: "Security & Optimization",
+    title: "Cleaning & Maintenance Coordination",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
-    items: [
-      {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
-      },
-      {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
-      },
-      {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
-      },
-    ],
+      "I remotely manage cleaning schedules and fix issues fast—so your space stays 5-star ready.",
+    items: [],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Listing Optimization & Reviews",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
-      },
-    ],
+      "I help upgrade photos, titles, descriptions—and automate review replies to boost trust.",
+    items: [],
   },
 ];
 export const projects = [
